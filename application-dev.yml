@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://193.112.100.103:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
 
 server:
   tomcat:
@@ -22,12 +22,12 @@ spring:
     hikari:
       minimum-idle: 0
   redis:
-    host: 127.0.0.103
+    host: localhost
     port: 6379
-    password: x19961010
+    password:
 
   rabbitmq:
-    host: 127.0.0.1
+    host: localhost
     port: 5672
     username: guest
     password: guest
